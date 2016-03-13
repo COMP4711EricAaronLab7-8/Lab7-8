@@ -5,8 +5,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
-<!DOCTYPE timetable SYSTEM "timetableDTD.dtd>
+<!DOCTYPE timetable SYSTEM "timetableDTD.dtd">
 
-<block>
-    
-</block>
+<blocks>
+    <block class="COMP4711" starttime="1430" endtime="1520" location="SW5 1840" day="Tu">4711</block>
+</blocks>
