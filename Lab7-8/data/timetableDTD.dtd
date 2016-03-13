@@ -12,6 +12,15 @@ and open the template in the editor.
 -->
 
 <!-- TODO define your own vocabulary/syntax. Example follows:  -->
-<!ELEMENT block ANY>
+<!ELEMENT blocks (block)+>
+
+<!ELEMENT block (#PCDATA)>
+<!ATTLIST block
+    class CDATA #REQUIRED
+    starttime CDATA #REQUIRED
+    endtime CDATA #REQUIRED
+    location CDATA #REQUIRED
+    day (M|Tu|W|Th|F) #REQUIRED
+>
 
 
