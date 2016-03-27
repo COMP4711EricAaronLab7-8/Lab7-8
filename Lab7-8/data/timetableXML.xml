@@ -9,117 +9,117 @@ and open the template in the editor.
 
 <timetable>
     <!--Day of the week view, example: wednesday-->
-     <dayofweek day="wednesday">
-        <class coursecode="COMP4945" day="thursday" starttime="0930" endtime="1020" >
+     <dayofweek code="wednesday">
+        <class code="COMP4945" day="thursday" starttime="0930" endtime="1020" >
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
-        <class coursecode="COMP4941" day="thursday" starttime="1030" endtime="1120">
+        <class code="COMP4941" day="thursday" starttime="1030" endtime="1120">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>
-        <class coursecode="COMP4735" day="thursday" starttime="1430" endtime="1230">
+        <class code="COMP4735" day="thursday" starttime="1430" endtime="1230">
             <room>SW1-1205</room>
             <instructor>Mirela Gutica</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
     </dayofweek>
     
     <!--Timeslot view of COMP4G's schedule, including times: 1330, 1430, and 1530-->
-    <timeslot time="1330">
-        <class coursecode="COMP4711" day="tuesday" starttime="1230" endtime="1320">
+    <timeslot code="1330">
+        <class code="COMP4711" day="tuesday" starttime="1230" endtime="1320">
             <room>SE12-320</room>
             <instructor>James Parry</instructor>  
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>  
-        <class coursecode="COMP4735" day="wednesday" starttime="1330" endtime="1420">
+        <class code="COMP4735" day="wednesday" starttime="1330" endtime="1420">
             <room>SW1-1205</room>
             <instructor>Mirela Gutica</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
-        <class coursecode="COMP4945" day="thursday" starttime="1330" endtime="1720">
+        <class code="COMP4945" day="thursday" starttime="1330" endtime="1720">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>
-        <class coursecode="COMP4941" day="friday" starttime="1330" endtime="1720">
+        <class code="COMP4941" day="friday" starttime="1330" endtime="1720">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
     </timeslot>  
-    <timeslot time="1430">
-        <class coursecode="COMP4711" day="tuesday" starttime="1430" endtime="1520">
+    <timeslot code="1430">
+        <class code="COMP4711" day="tuesday" starttime="1430" endtime="1520">
             <room>SW5-1840</room>
             <instructor>James Parry</instructor>  
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>  
-        <class coursecode="COMP4945" day="thursday" starttime="1330" endtime="1720">
+        <class code="COMP4945" day="thursday" starttime="1330" endtime="1720">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>
-        <class coursecode="COMP4941" day="friday" starttime="1330" endtime="1720">
+        <class code="COMP4941" day="friday" starttime="1330" endtime="1720">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
     </timeslot>
-    <timeslot time="1530">
-        <class coursecode="COMP4735" day="Monday" starttime="1530" endtime="1720">
+    <timeslot code="1530">
+        <class code="COMP4735" day="Monday" starttime="1530" endtime="1720">
             <room>SE12-322</room>
             <instructor>Mathew Linder</instructor>
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>  
-        <class coursecode="COMP4945" day="thursday" starttime="1330" endtime="1720">
+        <class code="COMP4945" day="thursday" starttime="1330" endtime="1720">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>
-        <class coursecode="COMP4941" day="friday" starttime="1330" endtime="1720">
+        <class code="COMP4941" day="friday" starttime="1330" endtime="1720">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
     </timeslot>
     
     <!--Course View of COMP4G's schedule, courses included: comp4711, blaw3600, comp4945-->
-    <course coursecode="COMP4711">
-        <class coursecode="COMP4711" day="tuesday" starttime="1230" endtime="1420">
+    <course code="COMP4711">
+        <class code="COMP4711" day="tuesday" starttime="1230" endtime="1420">
             <room>SE12-320</room>
             <instructor>James Parry</instructor>
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>
-        <class coursecode="COMP4711" day="tuesday" starttime="1430" endtime="1530">
+        <class code="COMP4711" day="tuesday" starttime="1430" endtime="1530">
             <room>SW5-1840</room>
             <instructor>James Parry</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
     </course>
-    <course coursecode="BLAW3600">
-        <class coursecode="BLAW3600" day="thursday" starttime="0930" endtime="1120">
+    <course code="BLAW3600">
+        <class code="BLAW3600" day="thursday" starttime="0930" endtime="1120">
             <room>SW3-2620</room>
             <instructor>Catherine Ryan</instructor>
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>
-        <class coursecode="BLAW3600" day="friday" starttime="0830" endtime="1020">
+        <class code="BLAW3600" day="friday" starttime="0830" endtime="1020">
             <room>SW5-1840</room>
             <instructor>Kevin Wainwright</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
     </course>
-    <course coursecode="COMP4945">       
-        <class coursecode="COMP4945" day="wednesday" starttime="0930" endtime="1020">
+    <course code="COMP4945">       
+        <class code="COMP4945" day="wednesday" starttime="0930" endtime="1020">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lec"></type>
+            <type code="Lec"></type>
         </class>
-        <class coursecode="COMP4945" day="thursday" starttime="1330" endtime="1720">
+        <class code="COMP4945" day="thursday" starttime="1330" endtime="1720">
             <room>SE12-319</room>
             <instructor>Tejinder Randhawa</instructor>
-            <type classtype="Lab"></type>
+            <type code="Lab"></type>
         </class>
     </course>
 </timetable>
