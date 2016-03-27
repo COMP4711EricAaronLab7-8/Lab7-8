@@ -15,19 +15,19 @@ and open the template in the editor.
 <!ELEMENT timetable (dayofweek|timeslot|course)+>
 <!ELEMENT dayofweek (class*)>
 <!ATTLIST dayofweek
-    day (monday|tuesday|wednesday|thursday|friday) #REQUIRED
+    code (monday|tuesday|wednesday|thursday|friday) #REQUIRED
 >
 <!ELEMENT timeslot (class*)>
 <!ATTLIST timeslot
-    time (0830|0930|1030|1130|1230|1330|1430|1530|1630) #REQUIRED
+    code (0830|0930|1030|1130|1230|1330|1430|1530|1630) #REQUIRED
 >
 <!ELEMENT course (class+)>
 <!ATTLIST course
-    coursecode (BLAW3600|COMP4560|COMP4735|COMP4945|COMP4941|COMP4711) #REQUIRED
+    code (BLAW3600|COMP4560|COMP4735|COMP4945|COMP4941|COMP4711) #REQUIRED
 >
 <!ELEMENT class (room, instructor, type)>
 <!ATTLIST class
-    coursecode (BLAW3600|COMP4560|COMP4735|COMP4945|COMP4941|COMP4711) #REQUIRED
+    code (BLAW3600|COMP4560|COMP4735|COMP4945|COMP4941|COMP4711) #REQUIRED
     day (monday|tuesday|wednesday|thursday|friday) #REQUIRED
     starttime (0830|0930|1030|1130|1230|1330|1430|1530|1630) #REQUIRED
     endtime (0930|1030|1130|1230|1330|1430|1530|1630|1730) #REQUIRED
@@ -35,6 +35,6 @@ and open the template in the editor.
 <!ELEMENT room (#PCDATA)>
 <!ELEMENT instructor (#PCDATA)>
 <!ELEMENT type (#PCDATA)>
-<!ATTLIST type classtype (Lab|Lec) #REQUIRED >
+<!ATTLIST type code (Lab|Lec) #REQUIRED >
 
 
